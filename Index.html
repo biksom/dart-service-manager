@@ -3,48 +3,52 @@
 <head>
   <meta charset="utf-8">
   <title>Dart Service Manager</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <header>
-  <nav>
-    <!--TODO: Видимо тут лишний тег p и под параграфом лишняя строка-->
-    <p>
-      djn b dcr
-      <!--TODO: Как было выбрано имя класса? Тут скорее подойдёт logo или что-то типа того-->
-      <a class="one">
-        <img src="img/logo.png" width="17" height="18" alt="Logo «Dart Service Manager»">
-    <p>Dart Service Manager</p>
+  <section class="header">
+  <div class="header-wrapper">  
+  <nav class="main-navigation">
+      <a class="logo">
+        <img src="img/logo.png" width="30" height="30" alt="Logo «Dart Service Manager»">
+    <p class="logo-name">Dart<br> Service Manager</p>
     </a>
-    <ul>
-      <!--TODO: В нашем случае лучше вместо ссылок на несуществующие страницы просто указать href="#"-->
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="Service.html">Service</a></li>
-      <li><a href="Extension.html">Extension</a></li>
-      <li><a href="Pricing.html">Pricing</a></li>
-      <li><a href="Help.html">Help</a></li>
+    <ul class="site-navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Extension</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Help</a></li>
     </ul>
-
-    <!--TODO: Зачем тут список?-->
-    <ul>
-      <li>
-        <button type="button">Sing up</button>
-      </li>
-    </ul>
+    <p>
+      <button class="login-button" type="button">sing up</button>
+    </p>
   </nav>
-  <h1>
-    Lorem Ipsum Dolor Sit Amet
-  </h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc
-  </p>
-  <button type="button">BUY NOW</button>
-  <button type="button">TRY FOR FREE</button>
+  <div class="header-center">
+    <div class="header-center-right">
+      <h1 class="slogan">
+        Lorem Ipsum <br>Dolor Sit Amet
+      </h1>
+    <p class="slogan-under">
+        Lorem ipsum dolor sit amet, consectetur adipisicing  elit, sed do<br> eiusmod tempor incididunt labore et dolore
+        magna aliqua. Ut enim ad<br> minim veniam, quis nostrud exercitation ullamc
+    </p>
+      <div class="use">
+        <button class="buy" type="button">BUY NOW</button>
+        <button class="free" type="button">TRY FOR FREE</button>
+      </div>
+    </div>
+  <video class="video" src="video/110.mp4" width="600" height="320" controls="controls" poster="img/video.png">
+    <!-- <source src="video/110.mp4" type="mp4"> -->
+  </video>
+ </div>
+</div>
+</section>
 </header>
 <main>
   <section>
-    <!--TODO: Тег h1 может и дожен быть только один на одной странице. Есть мнения что можно использовать несколько, но пока что лучше использовать один такой тег на одну страницу.-->
-    <h1>Easy & Useful</h1>
+    <h2>Easy & Useful</h2>
     <h2>
       Project Management Tool
     </h2>
@@ -187,8 +191,7 @@
       dolore magna
     </p>
     <h2>Здесь будет форма</h2>
-    <!--TODO: опечатка :) Погляди в указании типа.-->
-    <button type="batton">SEND</button>
+    <button type="button">SEND</button>
   </section>
   <section>
     <nav>
@@ -197,12 +200,11 @@
         <p>Dart Service Manager</p>
       </a>
       <ul>
-        <!--TODO: Аналогично моменту выше, лучше указать просто href="#"-->
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Service.html">Service</a></li>
-        <li><a href="Extension.html">Extension</a></li>
-        <li><a href="Pricing.html">Pricing</a></li>
-        <li><a href="Help.html">Help</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Extension</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Help</a></li>
       </ul>
     </nav>
     <ul>

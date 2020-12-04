@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+}
+
+header{
+	/*width: 1600px;*/
+	height: 750px;
+	background-image: url(img/Fill1.png);
+	/*background-image: url(img/Fill2.png),opacity 90;*/
+}
+
+.header{
+	/*width: 1600px;*/
+	height: 750px;
+	background-image: url(img/fill2.png);
+}
+
+.header-wrapper{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo-name{
+	font-family: "Myriad Pro",Regular;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+	margin-left: 10px;
+
+}
+
+.main-navigation{
+	/*margin-left: 80px;
+	margin-right: 80px;*/
+	padding-top: 52px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 167px;
+	/*max-width: 1440px;*/
+}
+
+.site-navigation{
+	font-family: "Raleway",SemiBold;
+	font-size: 15px;
+	line-height: 25px;
+	display: flex;
+	justify-content: space-between;
+	width: 440px;
+}
+
+.login-button{
+	color: #ffffff;
+	background-color: transparent;
+	padding: 5px 18px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+.main-navigation a,
+.site-navigation{
+	color: #ffffff;
+	list-style: none;
+}
+
+
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+	color: #000000;
+}
+
+.slogan{
+	font-family: "Myriad Pro",Regular;
+	font-size: 55px;
+	line-height: 65px;
+	color: #fff;
+	text-transform: uppercase;
+   /* font-weight: bolder 900;*/
+}
+
+.slogan-under{
+    font-family: "Myriad Pro",Regular;
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+.use{
+	margin-top: 34px;
+}
+
+.buy{
+	color: #fff;
+	background-color: #061e37;
+	padding: 22px 42px;
+	border: none;
+	border-radius: 5px; 
+}
+
+.free{
+	color: #061e37;
+	background-color: #fff;
+	padding: 22px 42px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
+.header-center{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.video{
+	margin-top: 59px;
+}
