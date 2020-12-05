@@ -5,14 +5,8 @@ body{
 header{
 	/*width: 1600px;*/
 	height: 750px;
-	background-image: url(img/Fill1.png);
+	background-image: url(img/bg-header.png);
 	/*background-image: url(img/Fill2.png),opacity 90;*/
-}
-
-.header{
-	/*width: 1600px;*/
-	height: 750px;
-	background-image: url(img/fill2.png);
 }
 
 .header-wrapper{
