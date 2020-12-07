@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 }
@@ -5,13 +8,15 @@ body{
 header{
 	background-image: url(img/bg-header.png);
 	background-size:cover;
+	padding-bottom: 182px;
 }
 
 .container{
-	max-width: 1206px;
+	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
-	padding-bottom: 182px;
+	padding: 0 80px;
+
 }
 
 a{
@@ -92,8 +97,11 @@ a{
 	padding: 22px 42px;
 	border: none;
 	border-radius: 5px;
-	box-shadow: 0 5px 5px; 
+	box-shadow:  0px 7px 5px 0px #827d7dc4;
 }
+
+ 
+
 
 .buy{
 	color: #fff;
@@ -115,4 +123,22 @@ a{
 
 .video{
 	margin-top: 42px;
+}
+
+.info-slogan{
+	font-family: "Raleway",SemiBold;
+	font-size: 45px;
+}
+
+.info-slogan-under{
+	font-family: "Raleway",SemiBold;
+	font-size: 25px;
+	color: #b0bec5;
+}
+
+.info-under{
+	font-family: "Myried Pro",Regular;
+	font-size: 15px;
+	line-height: 25px;
+	color: #b0bec5
 }
