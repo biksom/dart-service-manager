@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+
+header{
+	background-image: url(img/bg-header.png);
+	background-size:cover;
+	padding-bottom: 182px;
+}
+
+.container{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 80px;
+
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo-name{
+	font-family: "Myriad Pro",Regular;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
+	margin-left: 10px;
+
+}
+
+.main-navigation{
+	padding-top: 52px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 167px;
+}
+
+.site-navigation{
+	font-family: "Raleway",SemiBold;
+	font-size: 15px;
+	line-height: 25px;
+	display: flex;
+	justify-content: space-between;
+	width: 440px;
+}
+
+.login-button{
+	color: #ffffff;
+	background-color: transparent;
+	padding: 5px 18px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.main-navigation a,
+.site-navigation{
+	color: #ffffff;
+	list-style: none;
+}
+
+
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+	color: #000000;
+}
+
+.slogan{
+	font-family: "Myriad Pro",Regular;
+	font-size: 55px;
+	line-height: 65px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.slogan-under{
+    font-family: "Myriad Pro",Regular;
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+.use button{
+	margin-top: 16px;
+	padding: 22px 42px;
+	border: none;
+	border-radius: 5px;
+	box-shadow:  0px 7px 5px 0px #827d7dc4;
+}
+
+ 
+
+
+.buy{
+	color: #fff;
+	background: #061e37; 
+}
+
+.free{
+	color: #061e37;
+	background: #fff;
+	margin-left: 30px;
+
+}
+
+.header-center{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.video{
+	margin-top: 42px;
+}
+
+.info-slogan{
+	font-family: "Raleway",SemiBold;
+	font-size: 45px;
+}
+
+.info-slogan-under{
+	font-family: "Raleway",SemiBold;
+	font-size: 25px;
+	color: #b0bec5;
+}
+
+.info-under{
+	font-family: "Myried Pro",Regular;
+	font-size: 15px;
+	line-height: 25px;
+	color: #b0bec5
+}
