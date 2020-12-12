@@ -24,6 +24,10 @@ a{
 	
 }
 
+ul{
+	list-style: none;
+}
+
 .logo{
 	display: flex;
 	align-items: center;
@@ -54,7 +58,8 @@ a{
 	width: 440px;
 }
 
-.login-button{
+.login-button,
+button{
 	color: #ffffff;
 	background-color: transparent;
 	padding: 5px 18px;
@@ -63,10 +68,8 @@ a{
 	cursor: pointer;
 }
 
-.main-navigation a,
-.site-navigation{
+.main-navigation a{
 	color: #ffffff;
-	list-style: none;
 }
 
 
@@ -128,17 +131,131 @@ a{
 .info-slogan{
 	font-family: "Raleway",SemiBold;
 	font-size: 45px;
+	padding-top: 70px;
 }
 
 .info-slogan-under{
 	font-family: "Raleway",SemiBold;
 	font-size: 25px;
-	color: #b0bec5;
+	color: #b0bec5; 
 }
 
 .info-under{
 	font-family: "Myried Pro",Regular;
 	font-size: 15px;
 	line-height: 25px;
-	color: #b0bec5
+	color: #b0bec5;
+}
+
+.inf{
+	text-align: center;
+}
+
+.title-goes-here-one,
+.title-goes-here-two,
+.title-goes-here-three{
+	text-align: center;
+	background-image: url(img/list.png);
+	background-repeat: no-repeat;
+	background-position:top;
+	height: 230px;
+   
+}
+
+.title-goes-here-two{
+	background-image: url(img/man.png);
+}
+
+.title-goes-here-three{
+	background-image: url(img/worker.png);
+}
+
+.tgh{
+	font-family: "Raleway",SemiBold;
+	font-size: 20px;
+	line-height: 25px;
+	padding-top: 90px;
+}
+
+.tgh-under{
+	font-family: "Raleway",Regular;
+	font-size: 15px;
+	line-height: 20px;
+	color: #78909c;
+	margin-top: -10px;
+}
+
+.title-goes-here-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	padding: 0; 
+}
+
+.get-started{
+	background-color: #1de9b6;
+	padding: 22px 24px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 5px 5px 1px #dadada;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.benchmarks{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+    font-family: "Raleway",ExtraBold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.business,
+.downloads,
+.installs,
+.users{
+	width: 400px;
+	height: 150px;
+}
+
+.business{
+	background-color: #80d8ff;
+	padding-left: 201px;
+	padding-top: 50px;
+	background-image: url(img/business.png);
+	background-repeat: no-repeat;
+	background-position: 35% 50%;
+
+}
+
+.downloads{
+	background-color: #82b1ff;
+	padding-left: 201px;
+	padding-top: 50px;
+	background-image: url(img/download.png);
+	background-repeat: no-repeat;
+	background-position: 35% 50%;
+
+}
+
+.installs{
+	background-color: #b388ff;
+	padding-left: 201px;
+	padding-top: 50px;
+	background-image: url(img/person.png);
+	background-repeat: no-repeat;
+	background-position: 35% 50%;
+}
+
+.users{
+	background-color: #ea80fc;
+	padding-left: 201px;
+	padding-top: 50px;
+	background-image: url(img/users.png);
+	background-repeat: no-repeat;
+	background-position: 35% 50%;
 }
